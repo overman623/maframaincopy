@@ -119,7 +119,7 @@
   align-items: center;
 }
 
-.footer .bottom .bottom_right .move__site .title {
+.footer .bottom .bottom_right .move__site .move__site_title {
   background-color: #5b5b5b;
   color: #909090;
   height: 100%;
@@ -129,16 +129,17 @@
   text-align: left;
   font-weight: bold;
   padding-left: 14px;
+  padding-top: 15px;
   background-image: url(../images/select_arrow.png);
   background-repeat: no-repeat;
   background-position: 95% center;
 }
 
-.footer .bottom .bottom_right .move__site .title:hover {
+.footer .bottom .bottom_right .move__site .move__site_title:hover {
   cursor: pointer;
 }
 
-.footer .bottom .bottom_right .move__site .title:focus {
+.footer .bottom .bottom_right .move__site .move__site_title:focus {
   border: 1px solid #426dca;
 }
 
@@ -149,7 +150,11 @@
   position: absolute;
   bottom: 0;
   margin-bottom: 45px;
-  display: none; /*javascript로 해재하려고함.*/
+  display: none;
+}
+
+.footer .bottom .bottom_right .move__site .active.site_dropdown {
+  display: block; /*javascript로 해재하려고함.*/
 }
 
 .footer .bottom .bottom_right .move__site .site_dropdown ul li a {

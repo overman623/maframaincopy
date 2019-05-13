@@ -12,6 +12,8 @@
   const subList = document.querySelectorAll(".sub_tab");
   const menu = document.querySelector(".menu");
   const contentsButton = document.querySelectorAll(".contents__button");
+  const title = document.querySelector(".move__site_title");
+  const siteDropdown = document.querySelector(".site_dropdown");
 
   var nowIndex = 0;
   var nowSubIndex = 0;
@@ -71,6 +73,10 @@
     menuSearch.classList.toggle("toggled");
     menuExpand.classList.toggle("hide");
     mobileLayout.classList.toggle("toggle_search"); //search
+  });
+
+  title.addEventListener("click", function() {
+    siteDropdown.classList.toggle("active");
   });
 
   window.addEventListener("optimizedResize", function() {
