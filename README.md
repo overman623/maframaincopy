@@ -9,4 +9,5 @@ css flex를 사용하기 위한 연습의 필요성을 느끼고 작성함.
 ## Build status
 HTML5, Javascript, CSS3
 
-## Screenshots
+## Index watch
+https://overman623.github.io/maframaincopy/
