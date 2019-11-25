@@ -1,7 +1,12 @@
-# [maframaincopy] 농림축산식품부 사이트 메인화면 copy
+# [maframaincopy] 농림축산식품부 사이트 메인화면 복제
 
-# 1. 프로젝트 설명
-농림축산 식품부의 메인화면을 복제하였음. 반응형 화면으로 구성되었으며, 메인화면만 복제 되었으므로 링크를 눌러도 들어가지지 않는다.
+## Project title
+농림축산식품부 사이트 메인화면 UI/UX 연습
 
-# 2. Tools
-HTML5,CSS3,javascript
+## Motivation
+css flex를 사용하기 위한 연습의 필요성을 느끼고 작성함.
+
+## Build status
+HTML5, Javascript, CSS3
+
+## Screenshots
